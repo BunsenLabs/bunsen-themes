@@ -1,0 +1,103 @@
+/* General colors for the greeter */
+#login_window,
+#restart_dialog,
+#shutdown_dialog,
+#login_window,
+#login_window #user_combobox .arrow {
+    background-color: @lightdm_bg_color;
+    color: @lightdm_fg_color;
+}
+
+#panel_window,
+#panel_window .menubar,
+#panel_window .menubar > .menuitem {
+    background-color: alpha (@lightdm_bg_color, 0.7);
+    color: @lightdm_fg_color;
+border-style: none;
+}
+
+#panel_window .menubar .menuitem {
+    text-shadow: 0px 1px alpha(@dark_shadow, 1.0);
+}
+
+#panel_window .menubar .menuitem:insensitive {
+    color: alpha (@lightdm_fg_color, 0.7);
+    text-shadow: none;
+}
+
+#panel_window .menubar .menu .menuitem {
+    font: normal;
+    text-shadow: none;
+}
+
+#panel_window {
+    box-shadow: none;
+}
+
+
+#login_window {
+    border-width: 0px;
+    border-style: solid;
+    border-color: alpha(@dark_shadow, 0.3);
+    box-shadow: none;
+    border-radius: 0px;
+}
+
+/* Set all buttons and the user-avatar to a dark style */
+#login_window .button,
+#restart_dialog .button,
+#shutdown_dialog .button,
+#user_image {
+    background-color: @lightdm_bg_color;
+    background-image: none;
+    color: @lightdm_fg_color;
+    border-color: alpha(@dark_shadow, 0.3);
+    border-radius: 4px;
+ /*   text-shadow: 0px 1px alpha(@dark_shadow, 1.0); */
+    box-shadow: none;
+}
+
+/* Add some padding to the buttons, except the user-combobox */
+#cancel_button,
+#login_button,
+#shutdown_button,
+#restart_button {
+    padding: 4px 16px 4px 16px;
+}
+
+/* Add more padding to the user-avatar */
+#user_image {
+    padding: 4px;
+}
+
+/* Highlight for default-buttons and focus for better keyboard-navigation */
+#login_window .button.default,
+#restart_dialog .button.default,
+#shutdown_dialog .button.default,
+#login_window .button:focus,
+#restart_dialog .button:focus,
+#shutdown_dialog .button:focus {
+    background-color: shade(@theme_selected_bg_color, 0.7);
+}
+
+/* General button hover-effect */
+#login_window .button:hover,
+#restart_dialog .button:hover,
+#shutdown_dialog .button:hover {
+    background-color: shade(@theme_selected_bg_color, 0.9);
+}
+
+/* Login/Unlock button is blue on hover
+#login_button.button:hover {
+    background-color: shade(@theme_selected_bg_color, 0.8);
+} */
+
+
+#shutdown_button.button:hover {
+    background-color: shade(@theme_selected_bg_color, 0.8);
+}
+
+
+#restart_button.button:hover {
+    background-color: shade(@theme_selected_bg_color, 0.8);
+}

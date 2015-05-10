@@ -1,0 +1,32 @@
+Bunsen-Dark, a dark theme for Bunsen, by hhh
+---------------------------------------------
+
+based on Greybird by The Shimmer Project.
+
+Light text on a dark background will not work with some programs, for
+example input fields in Iceweasel/Firefox.
+
+In order to fix this, navigate to
+
+  ~/.mozilla/firefox/${your_profile_folder}/chrome
+
+rename userContent-example.css to userContent.css and append the
+following CSS to the file:
+
+input {
+  -moz-appearance: none !important;
+  background-color: white;
+  color: black;
+}
+
+textarea {
+  -moz-appearance: none !important;
+  background-color: white;
+  color: black;
+}
+
+select {
+  -moz-appearance: none !important;
+  background-color: white;
+  color: black;
+}

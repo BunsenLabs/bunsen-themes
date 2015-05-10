@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=Bunsen-lightdm
+Comment=
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+GtkTheme=Bunsen-lightdm
+MetacityTheme=
+IconTheme=
+CursorTheme=

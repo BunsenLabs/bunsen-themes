@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=Bunsen-Blackish
+Comment=
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+GtkTheme=Bunsen-Blackish
+MetacityTheme=
+IconTheme=
+CursorTheme=
+ButtonLayout=:minimize,maximize,close
