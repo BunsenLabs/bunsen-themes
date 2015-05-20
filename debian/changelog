@@ -1,3 +1,10 @@
+bunsen-themes (1.0-1.1) stable; urgency=low
+
+  * Non-maintainer upload.
+  * Update version to reflect recent changes.
+
+ -- John Crawley <john@rafflesnagoya.com>  Wed, 20 May 2015 12:16:05 +0900
+
 bunsen-themes (1.0-1) stable; urgency=medium
 
   * Initial release
