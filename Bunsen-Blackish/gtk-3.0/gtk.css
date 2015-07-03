@@ -5,7 +5,7 @@ based on Greybird */
 @define-color fg_color #d9d9d9;
 @define-color base_color #333333;
 @define-color text_color #d9d9d9;
-@define-color selected_bg_color #171717;
+@define-color selected_bg_color #595959;
 @define-color selected_fg_color #e6e6e6;
 @define-color tooltip_bg_color #292929;
 @define-color tooltip_fg_color #d9d9d9;
