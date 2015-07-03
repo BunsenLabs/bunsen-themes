@@ -7,8 +7,8 @@
 # -------------------------------------------------------
 style "bunsen-notify-window"
 {
-    bg[NORMAL] = "#171717" 
-    XfceNotifyWindow::border-color = "#171717"
+    bg[NORMAL] = "#292929" 
+    XfceNotifyWindow::border-color = "#292929"
     XfceNotifyWindow::border-color-hover = "#919191"
     XfceNotifyWindow::border-radius =0.0
     XfceNotifyWindow::border-width = 2.0
@@ -19,7 +19,7 @@ class "XfceNotifyWindow" style "bunsen-notify-window"
 
 style "bunsen-notify-button"
 {
-    bg[NORMAL] = "#171717"
+    bg[NORMAL] = "#292929"
     fg[NORMAL] = "#d9d9d9"
     fg[PRELIGHT] = "#d9d9d9"
 }
@@ -35,7 +35,7 @@ style "bunsen-notify-progressbar"
 	xthickness   = 1
 	ythickness   = 1
   
-	bg[NORMAL] = "#171717"
+	bg[NORMAL] = "#292929"
         bg[SELECTED] = "#d8d8d8"
         bg[ACTIVE]   = "#333333"
 
