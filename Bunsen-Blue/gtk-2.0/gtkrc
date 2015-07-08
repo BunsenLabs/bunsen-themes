@@ -251,9 +251,9 @@ style "notebook-button" = "notebook-bg"
 
 style "notebook-bg"
 {
-	# bg[NORMAL] = shade (0.95, @base_color)
-	# bg[ACTIVE] = shade (0.97, @bg_color)
-	# fg[ACTIVE] = mix (0.8, @fg_color, shade (0.97, @bg_color))
+	 bg[NORMAL] = shade (0.95, @base_color)
+	 bg[ACTIVE] = shade (0.97, @bg_color)
+	 fg[ACTIVE] = mix (0.8, @fg_color, shade (0.97, @bg_color))
 }
 
 style "notebook" = "notebook-bg"
