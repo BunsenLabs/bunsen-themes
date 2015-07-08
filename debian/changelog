@@ -1,3 +1,9 @@
+bunsen-themes (1.1-1) unstable; urgency=medium
+
+  * Bunsen and Bunsen-Blue: Fix highlights for active tabs
+
+ -- Jens John <dev@2ion.de>  Wed, 08 Jul 2015 19:37:35 +0200
+
 bunsen-themes (1.0-3) unstable; urgency=low
 
   * Adjust background colours etc in dark themes.
