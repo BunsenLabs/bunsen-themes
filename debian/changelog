@@ -1,3 +1,10 @@
+bunsen-themes (8.0-1) bunsen-hydrogen; urgency=medium
+
+  * Correct major  version number to prepare for the official release
+  * Change suite to bunsen-hydrogen
+
+ -- Jens John <dev@2ion.de>  Sun, 30 Aug 2015 16:37:35 +0200
+
 bunsen-themes (1.1-1) unstable; urgency=medium
 
   * Bunsen and Bunsen-Blue: Fix highlights for active tabs
