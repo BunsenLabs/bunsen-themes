@@ -4280,7 +4280,7 @@ GtkBubbleWindow .toolbar {
 .window-frame, .window-frame:backdrop {
  box-shadow: 0 0 0 black;
  border-style: none;
- margin: 0;
+ margin: 10;
  border-radius: 0;
 }
 
