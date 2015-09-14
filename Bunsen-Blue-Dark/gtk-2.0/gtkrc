@@ -390,7 +390,7 @@ style "tooltips" = "wider"
 	engine "murrine"
 	{
 		roundness	= 0
-		rgba		= TRUE
+		rgba		= FALSE
 	}
 }
 
