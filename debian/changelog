@@ -1,3 +1,11 @@
+bunsen-themes (8.1-1) bunsen-hydrogen; urgency=medium
+
+  * damo: Fix for GTK2 tooltip transparency
+  * damo: Fix for GTK3 client-side decorations
+  * Various email address changes
+
+ -- Jens John <dev@2ion.de>  Thu, 17 Sep 2015 17:50:46 +0200
+
 bunsen-themes (8.0-1.1) bunsen-hydrogen; urgency=low
 
   * Non-maintainer upload.
