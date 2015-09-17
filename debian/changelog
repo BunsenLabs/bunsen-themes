@@ -1,3 +1,9 @@
+bunsen-themes (8.2-1) bunsen-hydrogen; urgency=medium
+
+  * hhh: Fix GTK shadows
+
+ -- Jens John <dev@2ion.de>  Thu, 17 Sep 2015 17:50:46 +0200
+
 bunsen-themes (8.1-1) bunsen-hydrogen; urgency=medium
 
   * damo: Fix for GTK2 tooltip transparency
