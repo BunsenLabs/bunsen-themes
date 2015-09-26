@@ -1,3 +1,9 @@
+bunsen-themes (8.3-1) bunsen-hydrogen; urgency=medium
+
+  * nagybence: Fix GTK3 deprecation warnings in CSS stylesheets
+
+ -- Jens John <dev@2ion.de>  Sat, 26 Sep 2015 13:45:03 +0200
+
 bunsen-themes (8.2-1) bunsen-hydrogen; urgency=medium
 
   * hhh: Fix GTK shadows
