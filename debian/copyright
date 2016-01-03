@@ -3,7 +3,7 @@ Upstream-Name: bunsen-themes
 Source: http://crunchbang.org/forums/viewtopic.php?id=39606
 
 Files: *
-Copyright: 2015 hhh <hsumen@bunsenlabs.org>
+Copyright: 2015-2016 hhh <hsumen@bunsenlabs.org>
 License: GPL-3+
  This package is free software; you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by
@@ -22,7 +22,7 @@ License: GPL-3+
  Public License version 2 can be found in "/usr/share/common-licenses/GPL-2".
 
 Files: debian/*
-Copyright: 2015 Jens Oliver John <dev@2ion.de>
+Copyright: 2015-2016 Jens John <dev@2ion.de>
 License: GPL-3+
  This package is free software; you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by
