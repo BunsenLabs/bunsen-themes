@@ -8,10 +8,10 @@ example input fields in Iceweasel/Firefox.
 
 In order to fix this, navigate to
 
-  ~/.mozilla/firefox/${your_profile_folder}/chrome
+  ~/.mozilla/firefox/${your_profile_folder}
 
-rename userContent-example.css to userContent.css and append the
-following CSS to the file:
+and create the folder and file chrome/userContent.css containing the
+following CSS content:
 
 input {
   -moz-appearance: none !important;
