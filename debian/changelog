@@ -1,3 +1,10 @@
+bunsen-themes (8.3.1-1) bunsen-hydrogen; urgency=low
+
+  * Non-maintainer upload.
+  * hhh: Update README in Bunsen-Blackish, Bunsen-Dark and Bunsen-Blue-Dark.
+
+ -- John Crawley <john@bunsenlabs.org>  Mon, 25 Jan 2016 14:01:34 +0900
+
 bunsen-themes (8.3-1) bunsen-hydrogen; urgency=medium
 
   * nagybence: Fix GTK3 deprecation warnings in CSS stylesheets
