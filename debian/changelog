@@ -1,3 +1,11 @@
+bunsen-themes (8.3.1-2) bunsen-hydrogen; urgency=medium
+
+  * Mark theme suite as incompatible with gtk3 >= 3.20. This will make the
+    themes unavailable on stretch and newer but ensure that users do not end
+    up with broken themes.
+
+ -- Jens John <dev@2ion.de>  Mon, 10 May 2016 00:17:34 +0900
+
 bunsen-themes (8.3.1-1) bunsen-hydrogen; urgency=low
 
   * Non-maintainer upload.
