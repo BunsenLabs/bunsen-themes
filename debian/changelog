@@ -1,3 +1,14 @@
+bunsen-themes (9.0-1) helium; urgency=medium
+
+  * Non-maintainer upload.
+  * New version for helium
+  * Replace themes with new ones from https://github.com/hhhorb/bunsen-themes-dev
+  * Add Recommends: gtk3-nocsd
+  * Change Depends: libgtk-3-0 (>= 3.22.11)
+  * Update dates in debian/copyright
+
+ -- John Crawley <john@bunsenlabs.org>  Tue, 23 May 2017 15:42:47 +0900
+
 bunsen-themes (8.3.1-2) bunsen-hydrogen; urgency=medium
 
   * Mark theme suite as incompatible with gtk3 >= 3.20. This will make the

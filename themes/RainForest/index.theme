@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=RainForest
+Comment=Greybird-based theme for BunsenLabs Helium
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+GtkTheme=RainForest
+MetacityTheme=
+IconTheme=
+CursorTheme=
+ButtonLayout=

@@ -10,8 +10,9 @@ Vcs-Git: https://github.com/BunsenLabs/bunsen-themes.git
 
 Package: bunsen-themes
 Architecture: all
-Depends: gtk2-engines-murrine, gtk2-engines-pixbuf, libgtk-3-0 (<< 3.20), ${misc:Depends}
+Depends: gtk2-engines-murrine, gtk2-engines-pixbuf, libgtk-3-0 (>= 3.22.11), ${misc:Depends}
+Recommends: gtk3-nocsd
 Suggests: openbox, lightdm-gtk-greeter
-Description: GTK, Openbox, and Li themes for Bunsen and Debian Jessie
- Made by hhh from the Crunchbang forums
+Description: GTK, Openbox, and Li themes for Bunsen and Debian Stretch
+ Made by hhh from the BunsenLabs forums
 
