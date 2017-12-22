@@ -1,33 +1,26 @@
-# Bunsen by hhh (hsumen@bunsenlabs.org)
-# based on
-# Theme: waldorf Xfce4 notification theme
-# Description: A default theme for CrunchBang Waldorf
-# Author: Philip Newborough <corenominal@corenominal.org>
-# Web: http://crunchbang.org/
-# -------------------------------------------------------
 style "bunsen-notify-window"
 {
-    bg[NORMAL] = "#3a3a3a" 
-    XfceNotifyWindow::border-color = "#3a3a3a"
-    XfceNotifyWindow::border-color-hover = "#e6e6e6"
+    bg[NORMAL] = "#cecece" 
+    XfceNotifyWindow::border-color = "#cecece"
+    XfceNotifyWindow::border-color-hover = "#3c3c3c"
     XfceNotifyWindow::border-radius = 0.0
-    XfceNotifyWindow::border-width = 4.0
-    XfceNotifyWindow::border-width-hover = 4.0
+    XfceNotifyWindow::border-width = 0.0
+    XfceNotifyWindow::border-width-hover = 2.0
     XfceNotifyWindow::summary-bold = 1
 }
 class "XfceNotifyWindow" style "bunsen-notify-window"
 
 style "bunsen-notify-button"
 {
-    bg[NORMAL] = "#3a3a3a"
-    bg[PRELIGHT] = "#545454"
-    fg[NORMAL] = "#e6e6e6"
-    fg[PRELIGHT] = "#e6e6e6"
+    bg[NORMAL] = "#cecece"
+    bg[PRELIGHT] = "#dbdbdb"
+    fg[NORMAL] = "#212121"
+    fg[PRELIGHT] = "#212121"
 }
 
 style "bunsen-notify-text"
 {
-    fg[NORMAL] = "#e6e6e6"
+    fg[NORMAL] = "#212121"
     GtkWidget::link-color = "#a7a7a7"
 }
 
@@ -36,6 +29,7 @@ style "bunsen-notify-progressbar"
 	xthickness   = 1
 	ythickness   = 1
 
+	bg[NORMAL]   = "#3a3a3a"
 	bg[SELECTED] = "#808080"
 	bg[ACTIVE]   = "#4a4a4a"
 
