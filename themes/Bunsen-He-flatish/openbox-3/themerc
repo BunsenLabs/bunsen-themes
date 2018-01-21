@@ -1,0 +1,95 @@
+!! Bunsen-He-flatish
+!! based on...
+!! Bunsen by hhh &
+!! Theme: waldorf
+!! Description: A default theme for CrunchBang Waldorf
+!! Author: Philip Newborough <corenominal@corenominal.org>
+!! Web: http://crunchbang.org/
+!! -------------------------------------------------------
+
+!! Menu settings
+
+menu.title.bg: flat solid
+menu.title.bg.color: #CECECE
+menu.title.text.color: #888888
+menu.title.text.justify: right
+
+menu.separator.color: #
+
+menu.items.bg: flat solid
+menu.items.bg.color: #CECECE
+menu.items.text.color: #888888
+menu.items.disabled.text.color: #CECECE
+
+menu.items.active.bg: flat solid
+menu.items.active.bg.color: #CECECE
+menu.items.active.text.color: #444444
+menu.bullet.selected.image.color: #444444
+
+!! focused window settings
+
+window.active.title.bg: flat solid
+window.active.title.bg.color: #CECECE
+window.active.title.separator.color: #CECECE
+
+window.active.handle.bg: flat solid
+window.active.handle.bg.color: #cecece
+
+window.active.grip.bg: parentrelative
+
+window.active.label.bg: parentrelative
+window.active.label.text.color: #444444
+
+window.*.button.*.bg: parentrelative
+window.active.button.*.image.color: #888888
+window.active.button.*.hover.image.color: #444444
+window.active.button.*.pressed.image.color: #000000
+window.active.button.disabled.image.color: #CECECE
+
+!! unfocused window settings
+
+window.inactive.title.bg: flat solid
+window.inactive.title.bg.color: #CECECE
+window.inactive.title.separator.color: #CECECE
+
+window.inactive.handle.bg: flat solid
+window.inactive.handle.bg.color: #cecece
+
+window.inactive.grip.bg: parentrelative
+
+window.inactive.label.bg: parentrelative
+window.inactive.label.text.color: #888888
+
+window.inactive.button.*.image.color: #BBBBBB
+window.inactive.button.*.hover.image.color: #888888
+window.inactive.button.*.pressed.image.color: #444444
+window.inactive.button.disabled.image.color: #CECECE
+
+!! Global width settings
+border.Width: 1
+padding.width: 3
+window.handle.width: 0
+window.client.padding.width: 0
+menu.overlap.x: -3
+
+!! Miscellaneous settings
+border.color: #888888
+menu.border.color: #888888
+
+!! OSD
+osd.bg: flat gradient vertical bevel1
+osd.bg.color: #cecece
+osd.bg.colorTo: #cecece
+osd.label.bg: parentrelative
+osd.hilight.bg: flat solid
+osd.hilight.bg.color: #444444
+osd.unhilight.bg: flat solid
+osd.unhilight.bg.color: #444444
+osd.label.text.color: #444444
+
+!! font me!
+window.label.text.justify: center
+window.active.label.text.font:shadow=y:shadowtint=-50:shadowoffset=1
+window.inactive.label.text.font:shadow=y:shadowtint=-50:shadowoffset=1
+menu.items.font:
+menu.title.text.font:shadow=n:shadowtint=50
