@@ -4,6 +4,7 @@ Source: http://crunchbang.org/forums/viewtopic.php?id=39606
 
 Files: *
 Copyright: 2015-2017 hhh <hsumen@bunsenlabs.org>
+           2017-2018 Matthew T Hoare <matthew.t.hoare@gmail.com>
 License: GPL-3+
  This package is free software; you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by
@@ -23,7 +24,7 @@ License: GPL-3+
 
 Files: debian/*
 Copyright: 2015-2016 Jens John <dev@2ion.de>
-           2017 John Crawley <john@bunsenlabs.org>
+           2017-2018 John Crawley <john@bunsenlabs.org>
 License: GPL-3+
  This package is free software; you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by
