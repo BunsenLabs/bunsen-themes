@@ -1,3 +1,12 @@
+bunsen-themes (9.1-1) helium; urgency=medium
+
+  * Update copyright.
+    [Matthew T. Hoare]
+  * Add custom xbm decorations.
+  * Add openbox version for Bunsen-He-flatish.
+
+ -- John Crawley <john@bunsenlabs.org>  Thu, 22 Feb 2018 16:53:26 +0900
+
 bunsen-themes (9.0-1) helium; urgency=medium
 
   * Non-maintainer upload.
