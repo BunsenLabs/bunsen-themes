@@ -1,3 +1,9 @@
+bunsen-themes (9.2-1) helium; urgency=medium
+
+  * Fix vertical displacement of openbox menu items in some themes.
+
+ -- John Crawley <john@bunsenlabs.org>  Sat, 24 Feb 2018 11:53:51 +0900
+
 bunsen-themes (9.1-1) helium; urgency=medium
 
   * Update copyright.
