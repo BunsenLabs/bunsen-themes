@@ -11,20 +11,20 @@
 
 menu.title.bg: flat solid
 menu.title.bg.color: #CECECE
-menu.title.text.color: #888888
+menu.title.text.color: #222222
 menu.title.text.justify: right
 
-menu.separator.color: #
+menu.separator.color: #222222
 
 menu.items.bg: flat solid
 menu.items.bg.color: #CECECE
-menu.items.text.color: #888888
-menu.items.disabled.text.color: #CECECE
+menu.items.text.color: #222222
+menu.items.disabled.text.color: #888888
 
 menu.items.active.bg: flat solid
-menu.items.active.bg.color: #CECECE
-menu.items.active.text.color: #444444
-menu.bullet.selected.image.color: #444444
+menu.items.active.bg.color: #ababab
+menu.items.active.text.color: #000000
+menu.bullet.selected.image.color: #000000
 
 !! focused window settings
 
