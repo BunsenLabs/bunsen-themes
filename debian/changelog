@@ -1,3 +1,10 @@
+bunsen-themes (9.3-1) helium; urgency=medium
+
+    [Matthew T Hoare]
+  * Bunsen-He-flatish: update openbox theme.
+
+ -- John Crawley <john@bunsenlabs.org>  Wed, 07 Mar 2018 18:34:51 +0900
+
 bunsen-themes (9.2-1) helium; urgency=medium
 
   * Fix vertical displacement of openbox menu items in some themes.
