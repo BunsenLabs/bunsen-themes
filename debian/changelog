@@ -1,3 +1,9 @@
+bunsen-themes (9.3-2) helium; urgency=medium
+
+  * gtk3-nocsd: remove from Recommends.
+
+ -- John Crawley <john@bunsenlabs.org>  Mon, 26 Mar 2018 17:15:27 +0900
+
 bunsen-themes (9.3-1) helium; urgency=medium
 
     [Matthew T Hoare]
