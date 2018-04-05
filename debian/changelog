@@ -1,3 +1,10 @@
+bunsen-themes (9.4-1) helium; urgency=medium
+
+  [Vinzenz Vietzke]
+  * Add HiDPI version of Beam theme.
+
+ -- John Crawley <john@bunsenlabs.org>  Thu, 05 Apr 2018 13:40:50 +0900
+
 bunsen-themes (9.3-2) helium; urgency=medium
 
   * gtk3-nocsd: remove from Recommends.
