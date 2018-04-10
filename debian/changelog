@@ -1,3 +1,9 @@
+bunsen-themes (9.4.1-1) helium; urgency=medium
+
+  * Remove gtk3 .sass-cache directories in all themes.
+
+ -- John Crawley <john@bunsenlabs.org>  Tue, 10 Apr 2018 14:06:31 +0900
+
 bunsen-themes (9.4-1) helium; urgency=medium
 
   [Vinzenz Vietzke]
