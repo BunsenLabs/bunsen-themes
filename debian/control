@@ -2,8 +2,8 @@ Source: bunsen-themes
 Section: x11
 Priority: optional
 Maintainer: Jens John <dev@2ion.de>
-Build-Depends: debhelper (>= 9)
-Standards-Version: 3.9.5
+Build-Depends: debhelper (>= 10)
+Standards-Version: 4.3.0
 Homepage: https://github.com/bunsenlabs/bunsen-themes
 Vcs-Browser: https://github.com/bunsenlabs/bunsen-themes
 Vcs-Git: https://github.com/BunsenLabs/bunsen-themes.git
@@ -12,6 +12,6 @@ Package: bunsen-themes
 Architecture: all
 Depends: gtk2-engines-murrine, gtk2-engines-pixbuf, libgtk-3-0 (>= 3.22.11), ${misc:Depends}
 Suggests: openbox, lightdm-gtk-greeter
-Description: GTK, Openbox, and Li themes for Bunsen and Debian Stretch
+Description: GTK, Openbox, and Li themes for Bunsen and Debian Buster
  Made by hhh from the BunsenLabs forums
 
