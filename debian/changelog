@@ -1,3 +1,13 @@
+bunsen-themes (10.0-1) lithium; urgency=medium
+
+  * Non-maintainer upload.
+  * Migrate to Lithium repository.
+  * Standards to 4.3.0, debhelper to 10.
+  * Update copyright.
+  * Remove obsolete Bunsen-He themes.
+
+ -- John Crawley <john@bunsenlabs.org>  Fri, 11 Jan 2019 15:58:01 +0900
+
 bunsen-themes (9.4.1-1) helium; urgency=medium
 
   * Remove gtk3 .sass-cache directories in all themes.
