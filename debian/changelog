@@ -1,3 +1,9 @@
+bunsen-themes (10.0.1-1) lithium; urgency=medium
+
+  * Restore Bunsen-He theme.
+
+ -- John Crawley <john@bunsenlabs.org>  Sun, 30 Jun 2019 15:31:06 +0900
+
 bunsen-themes (10.0-1) lithium; urgency=medium
 
   * Non-maintainer upload.
