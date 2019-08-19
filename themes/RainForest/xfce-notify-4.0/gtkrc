@@ -1,0 +1,57 @@
+style "bunsen-notify-window"
+{
+    bg[NORMAL] = "#BAC8B0" 
+    XfceNotifyWindow::border-color = "#5F8A45"
+    XfceNotifyWindow::border-color-hover = "#3c3c3c"
+    XfceNotifyWindow::border-radius = 0.0
+    XfceNotifyWindow::border-width = 2.0
+    XfceNotifyWindow::border-width-hover = 2.0
+    XfceNotifyWindow::summary-bold = 1
+}
+class "XfceNotifyWindow" style "bunsen-notify-window"
+
+style "bunsen-notify-button"
+{
+    bg[NORMAL] = "#C0CFB6"
+    bg[PRELIGHT] = "#C9D9BF"
+    fg[NORMAL] = "#2E2824"
+    fg[PRELIGHT] = "#2E2824"
+}
+
+style "bunsen-notify-text"
+{
+    fg[NORMAL] = "#2E2824"
+    GtkWidget::link-color = "#a7a7a7"
+}
+
+style "bunsen-notify-progressbar"
+{
+	xthickness   = 1
+	ythickness   = 1
+
+	bg[SELECTED] = "#5F8A45"
+	bg[ACTIVE]   = "#999999"
+
+	GtkProgressBar::min-vertical-bar-width = 4
+	GtkProgressBar::min-horizontal-bar-height = 4
+
+	engine "murrine" {
+		gradient_shades = {1.1,0.95,1.1,0.85}
+		contrast	= 0.5
+		border_shades	= { 0.9, 0.9 }
+		progressbarstyle    = 0
+	}
+}
+
+style "bunsen-summary"
+{
+    font_name = "Bold"
+}
+
+
+widget "XfceNotifyWindow.*.summary" style "bunsen-summary"
+widget_class "XfceNotifyWindow.*.GtkButton*" style "bunsen-notify-button"
+widget_class "XfceNotifyWindow.*.<GtkLabel>" style "bunsen-notify-text"
+widget_class "XfceNotifyWindow.*.<GtkProgress>" style "bunsen-notify-progressbar"
+widget_class "XfceNotifyWindow.*.<GtkProgressBar>" style "bunsen-notify-progressbar"
+

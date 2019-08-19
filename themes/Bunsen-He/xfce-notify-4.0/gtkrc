@@ -1,0 +1,64 @@
+# Bunsen by hhh (hsumen@bunsenlabs.org)
+# based on
+# Theme: waldorf Xfce4 notification theme
+# Description: A default theme for CrunchBang Waldorf
+# Author: Philip Newborough <corenominal@corenominal.org>
+# Web: http://crunchbang.org/
+# -------------------------------------------------------
+style "bunsen-notify-window"
+{
+    bg[NORMAL] = "#3a3a3a" 
+    XfceNotifyWindow::border-color = "#3a3a3a"
+    XfceNotifyWindow::border-color-hover = "#e6e6e6"
+    XfceNotifyWindow::border-radius = 0.0
+    XfceNotifyWindow::border-width = 4.0
+    XfceNotifyWindow::border-width-hover = 4.0
+    XfceNotifyWindow::summary-bold = 1
+}
+class "XfceNotifyWindow" style "bunsen-notify-window"
+
+style "bunsen-notify-button"
+{
+    bg[NORMAL] = "#3a3a3a"
+    bg[PRELIGHT] = "#545454"
+    fg[NORMAL] = "#e6e6e6"
+    fg[PRELIGHT] = "#e6e6e6"
+}
+
+style "bunsen-notify-text"
+{
+    fg[NORMAL] = "#e6e6e6"
+    GtkWidget::link-color = "#a7a7a7"
+}
+
+style "bunsen-notify-progressbar"
+{
+	xthickness   = 1
+	ythickness   = 1
+
+	bg[SELECTED] = "#808080"
+	bg[ACTIVE]   = "#4a4a4a"
+
+	GtkProgressBar::min-vertical-bar-width = 4
+	GtkProgressBar::min-horizontal-bar-height = 4
+
+	engine "murrine" {
+		gradient_shades = {1.1,0.95,1.1,0.85}
+		contrast	= 0.5
+		border_shades	= { 0.9, 0.9 }
+		progressbarstyle    = 0
+	}
+}
+
+style "bunsen-summary"
+{
+    font_name = "Bold"
+}
+
+
+widget "XfceNotifyWindow.*.summary" style "bunsen-summary"
+widget_class "XfceNotifyWindow.*.GtkButton*" style "bunsen-notify-button"
+widget_class "XfceNotifyWindow.*.<GtkLabel>" style "bunsen-notify-text"
+widget_class "XfceNotifyWindow.*.<GtkProgress>" style "bunsen-notify-progressbar"
+widget_class "XfceNotifyWindow.*.<GtkProgressBar>" style "bunsen-notify-progressbar"
+

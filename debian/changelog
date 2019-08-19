@@ -1,9 +1,145 @@
+bunsen-themes (10.0.2-1) lithium; urgency=medium
+
+  [ hhh ]
+  * Add new BL-Lithium theme. 
+
+ -- John Crawley <john@bunsenlabs.org>  Tue, 13 Aug 2019 17:18:52 +0900
+
+bunsen-themes (10.0.1-1) lithium; urgency=medium
+
+  * Restore Bunsen-He theme.
+
+ -- John Crawley <john@bunsenlabs.org>  Sun, 30 Jun 2019 15:31:06 +0900
+
+bunsen-themes (10.0-1) lithium; urgency=medium
+
+  * Non-maintainer upload.
+  * Migrate to Lithium repository.
+  * Standards to 4.3.0, debhelper to 10.
+  * Update copyright.
+  * Remove obsolete Bunsen-He themes.
+
+ -- John Crawley <john@bunsenlabs.org>  Fri, 11 Jan 2019 15:58:01 +0900
+
+bunsen-themes (9.4.1-1) helium; urgency=medium
+
+  * Remove gtk3 .sass-cache directories in all themes.
+
+ -- John Crawley <john@bunsenlabs.org>  Tue, 10 Apr 2018 14:06:31 +0900
+
+bunsen-themes (9.4-1) helium; urgency=medium
+
+  [Vinzenz Vietzke]
+  * Add HiDPI version of Beam theme.
+
+ -- John Crawley <john@bunsenlabs.org>  Thu, 05 Apr 2018 13:40:50 +0900
+
+bunsen-themes (9.3-2) helium; urgency=medium
+
+  * gtk3-nocsd: remove from Recommends.
+
+ -- John Crawley <john@bunsenlabs.org>  Mon, 26 Mar 2018 17:15:27 +0900
+
+bunsen-themes (9.3-1) helium; urgency=medium
+
+    [Matthew T Hoare]
+  * Bunsen-He-flatish: update openbox theme.
+
+ -- John Crawley <john@bunsenlabs.org>  Wed, 07 Mar 2018 18:34:51 +0900
+
+bunsen-themes (9.2-1) helium; urgency=medium
+
+  * Fix vertical displacement of openbox menu items in some themes.
+
+ -- John Crawley <john@bunsenlabs.org>  Sat, 24 Feb 2018 11:53:51 +0900
+
+bunsen-themes (9.1-1) helium; urgency=medium
+
+  * Update copyright.
+    [Matthew T. Hoare]
+  * Add custom xbm decorations.
+  * Add openbox version for Bunsen-He-flatish.
+
+ -- John Crawley <john@bunsenlabs.org>  Thu, 22 Feb 2018 16:53:26 +0900
+
+bunsen-themes (9.0-1) helium; urgency=medium
+
+  * Non-maintainer upload.
+  * New version for helium
+  * Replace themes with new ones from https://github.com/hhhorb/bunsen-themes-dev
+  * Add Recommends: gtk3-nocsd
+  * Change Depends: libgtk-3-0 (>= 3.22.11)
+  * Update dates in debian/copyright
+
+ -- John Crawley <john@bunsenlabs.org>  Tue, 23 May 2017 15:42:47 +0900
+
+bunsen-themes (8.3.1-2) bunsen-hydrogen; urgency=medium
+
+  * Mark theme suite as incompatible with gtk3 >= 3.20. This will make the
+    themes unavailable on stretch and newer but ensure that users do not end
+    up with broken themes.
+
+ -- Jens John <dev@2ion.de>  Mon, 10 May 2016 00:17:34 +0900
+
+bunsen-themes (8.3.1-1) bunsen-hydrogen; urgency=low
+
+  * Non-maintainer upload.
+  * hhh: Update README in Bunsen-Blackish, Bunsen-Dark and Bunsen-Blue-Dark.
+
+ -- John Crawley <john@bunsenlabs.org>  Mon, 25 Jan 2016 14:01:34 +0900
+
+bunsen-themes (8.3-1) bunsen-hydrogen; urgency=medium
+
+  * nagybence: Fix GTK3 deprecation warnings in CSS stylesheets
+
+ -- Jens John <dev@2ion.de>  Sat, 26 Sep 2015 13:45:03 +0200
+
+bunsen-themes (8.2-1) bunsen-hydrogen; urgency=medium
+
+  * hhh: Fix GTK shadows
+
+ -- Jens John <dev@2ion.de>  Thu, 17 Sep 2015 17:50:46 +0200
+
+bunsen-themes (8.1-1) bunsen-hydrogen; urgency=medium
+
+  * damo: Fix for GTK2 tooltip transparency
+  * damo: Fix for GTK3 client-side decorations
+  * Various email address changes
+
+ -- Jens John <dev@2ion.de>  Thu, 17 Sep 2015 17:50:46 +0200
+
+bunsen-themes (8.0-1.1) bunsen-hydrogen; urgency=low
+
+  * Non-maintainer upload.
+  * Edit debian/copyright.
+
+ -- John Crawley <john@bunsenlabs.org>  Tue, 08 Sep 2015 17:14:07 +0900
+
+bunsen-themes (8.0-1) bunsen-hydrogen; urgency=medium
+
+  * Correct major  version number to prepare for the official release
+  * Change suite to bunsen-hydrogen
+
+ -- Jens John <dev@2ion.de>  Sun, 30 Aug 2015 16:37:35 +0200
+
+bunsen-themes (1.1-1) unstable; urgency=medium
+
+  * Bunsen and Bunsen-Blue: Fix highlights for active tabs
+
+ -- Jens John <dev@2ion.de>  Wed, 08 Jul 2015 19:37:35 +0200
+
+bunsen-themes (1.0-3) unstable; urgency=low
+
+  * Adjust background colours etc in dark themes.
+
+ -- John Crawley <john@bunsenlabs.org>  Sat, 04 Jul 2015 14:07:55 +0900
+
 bunsen-themes (1.0-2) stable; urgency=low
 
   * Non-maintainer upload.
   * Update version to reflect recent changes.
 
- -- John Crawley <john@rafflesnagoya.com>  Wed, 20 May 2015 12:16:05 +0900
+ -- John Crawley <john@bunsenlabs.org>  Wed, 20 May 2015 12:16:05 +0900
 
 bunsen-themes (1.0-1) stable; urgency=medium
 

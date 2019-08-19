@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=Beam-HiDPI
+Comment=Greybird-based HiDPI theme for BunsenLabs Helium
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+GtkTheme=Beam-HiDPI
+MetacityTheme=
+IconTheme=
+CursorTheme=
+ButtonLayout=
