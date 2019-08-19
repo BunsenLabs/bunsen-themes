@@ -1,3 +1,10 @@
+bunsen-themes (10.0.3-1) lithium; urgency=medium
+
+  [ hhhorb ]
+  * Add new BL-Lithium-light theme.
+
+ -- John Crawley <john@bunsenlabs.org>  Mon, 19 Aug 2019 14:38:11 +0900
+
 bunsen-themes (10.0.2-1) lithium; urgency=medium
 
   [ hhh ]
