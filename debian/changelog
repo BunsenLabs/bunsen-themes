@@ -1,3 +1,10 @@
+bunsen-themes (10.0.4-1) lithium; urgency=medium
+
+  [ hhhorb ]
+  * Add Fever_Room theme.
+
+ -- John Crawley <john@bunsenlabs.org>  Sat, 24 Aug 2019 14:39:32 +0900
+
 bunsen-themes (10.0.3-1) lithium; urgency=medium
 
   [ hhhorb ]
