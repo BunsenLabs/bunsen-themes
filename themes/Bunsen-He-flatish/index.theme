@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=Bunsen-He-flatish
+Comment=Greybird-based theme for BunsenLabs Helium
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+GtkTheme=Bunsen-He-flatish
+MetacityTheme=
+IconTheme=
+CursorTheme=
+ButtonLayout=
