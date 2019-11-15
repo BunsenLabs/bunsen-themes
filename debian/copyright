@@ -3,9 +3,10 @@ Upstream-Name: bunsen-themes
 Source: http://crunchbang.org/forums/viewtopic.php?id=39606
 
 Files: *
-Copyright: 2015-2017 hhh <hsumen@bunsenlabs.org>
+Copyright: 2015-2019 hhh <hsumen@bunsenlabs.org>
            2017-2018 Matthew T Hoare <matthew.t.hoare@gmail.com>
            2018 Vinzenz Vietzke
+           2019 Will Elliott <will@gill>
 License: GPL-3+
  This package is free software; you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by
