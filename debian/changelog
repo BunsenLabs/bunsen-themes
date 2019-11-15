@@ -1,3 +1,10 @@
+bunsen-themes (10.0.5-1) lithium; urgency=medium
+
+  [ Will Elliott ]
+  * Add new Yeti and Yeti-Lith themes.
+
+ -- John Crawley <john@bunsenlabs.org>  Fri, 15 Nov 2019 17:19:38 +0900
+
 bunsen-themes (10.0.4-1) lithium; urgency=medium
 
   [ hhhorb ]
