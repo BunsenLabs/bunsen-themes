@@ -1,0 +1,139 @@
+/*
+NUDGE GTKRC by rstrcogburn
+Released to the Public Domain 2011
+*/
+
+#########
+## Colors
+#########
+
+gtk_color_scheme = "fg_color:#9ba8bb\nbg_color:#292d31\nbase_color:#292d31\ntext_color:#9ba8bb\nselected_bg_color:#9ba8bb\nselected_fg_color:#292d31\ntooltip_bg_color:#292d31\ntooltip_fg_color:#9ba8bb"
+
+
+########
+## Icons
+########
+
+gtk-icon-sizes = "panel=16,16 : gtk-menu=16,16 : gtk-button=16,16 : gtk-small-toolbar=16,16 : gtk-large-toolbar=16,16 : gtk-dialog=32,32 : gtk-dnd=16,16 : panel-menu=16,16"
+
+
+########
+## Menus
+########
+
+gtk-menu-images =      0 
+gtk-menu-popup-delay = 0 
+
+
+########
+# Styles
+########
+
+style "default"
+{
+
+  GtkButton      ::child-displacement-x = 0
+  GtkButton      ::child-displacement-y = 0
+  GtkButton      ::default-border       = { 0, 0, 0, 0 }
+  GtkButtonBox   ::child_min_width      = 0
+  GtkButtonBox   ::child_min_heigth     = 0
+  GtkButtonBox   ::child_internal_pad_x = 0
+  GtkButtonBox   ::child_internal_pad_y = 0
+
+  GtkCheckButton ::indicator-size       = 13 
+
+  GtkPaned       ::handle-size          = 3 
+
+  GtkRange       ::trough-border        = 0
+  GtkRange       ::slider-width         = 13 
+  GtkRange       ::stepper-size         = 13 
+  GtkRange       ::stepper_spacing      = 0
+
+  GtkScale       ::slider-length        = 21 
+  GtkScale       ::trough-side-details  = 1
+  GtkScrollbar   ::min-slider-length    = 21 
+
+  GtkMenuBar     ::internal-padding     = 0
+  GtkExpander    ::expander-size        = 13 
+  GtkToolbar     ::internal-padding     = 3 
+  GtkTreeView    ::expander-size        = 13 
+
+  GtkMenu        ::horizontal-padding   = 0
+  GtkMenu        ::vertical-padding     = 0
+  GtkMenuItem    ::arrow-scaling        = 0.3
+  GtkMenuBar     ::internal-padding     = 0
+  GtkOptionMenu  ::indicator_size       = 0
+  GtkOptionMenu  ::indicator_spacing    = 0
+  GtkWidget      ::focus-padding        = 0
+  GtkScrolledWindow ::scrollbar-spacing = 3
+
+  GtkToolbar::shadow-type       = GTK_SHADOW_NONE
+
+  xthickness = 1
+  ythickness = 1
+
+  fg[NORMAL]        = @fg_color
+  fg[PRELIGHT]      = @fg_color
+  fg[ACTIVE]        = @fg_color
+  fg[SELECTED]      = @selected_fg_color
+  fg[INSENSITIVE]   = @bg_color
+
+  bg[NORMAL]        = @bg_color
+  bg[PRELIGHT]      = @bg_color
+  bg[ACTIVE]        = @bg_color
+  bg[SELECTED]      = @selected_bg_color
+  bg[INSENSITIVE]   = @bg_color
+
+  base[NORMAL]      = @base_color
+  base[PRELIGHT]    = @bg_color
+  base[ACTIVE]      = @bg_color
+  base[SELECTED]    = @selected_bg_color
+  base[INSENSITIVE] = @bg_color
+
+  text[NORMAL]      = @text_color
+  text[PRELIGHT]    = @text_color
+  text[ACTIVE]      = @selected_bg_color
+  text[SELECTED]    = @selected_fg_color
+  text[INSENSITIVE] = @bg_color
+
+  engine "murrine"
+  {
+    animation           = FALSE              # Disables progress bar animations
+    colorize_scrollbar  = TRUE               # Colorize the scrollbars
+    glazestyle          = 0                  # Flattens out buttons
+    gradient_shades     = {1.0,1.0,1.0,1.0}  # Flattens out buttons
+    highlight_shade     = 1.0                # Flattens out buttons
+    listviewheaderstyle = 0                  # Flattens out headers
+    listviewstyle       = 0                  # Removes stipples from listview
+    menubaritemstyle    = 0                  # Sets items to menustyle
+    menubarstyle        = 0                  # Flattens out menubars
+    menuitemstyle       = 0                  # Flattens out menuitems
+    menustyle           = 0                  # Removes menu stripes
+    progressbarstyle    = 0                  # Sets progress bar to solid fill
+    reliefstyle         = 0                  # Removes 3D relief
+    roundness           = 2                  # To compliment nudge decors 
+    scrollbarstyle      = 0                  # Sets scrollbar to solid fill
+  }
+}
+
+style "menu-item"
+{
+  fg[PRELIGHT] = @selected_fg_color  
+  bg[SELECTED] = @selected_bg_color  
+  bg[PRELIGHT] = @selected_bg_color  
+}
+
+style "entry"
+{
+  xthickness = 2
+  ythickness = 2
+}
+
+
+##########
+## Matches
+##########
+
+class        "GtkWidget"       style "default"
+widget_class "*<GtkMenuItem>*" style "menu-item"
+class        "GtkEntry"        style "entry"
