@@ -1,13 +1,13 @@
 !! Menu settings
 
 menu.title.bg: flat gradient vertical bevel1
-menu.title.bg.color: #22373f
-menu.title.bg.colorTo: #22373f
+menu.title.bg.color: #2B454F
+menu.title.bg.colorTo: #2B454F
 menu.title.text.color: #d3dae3
 menu.title.text.justify: right
 
 menu.items.bg: flat solid
-menu.items.bg.color: #22373f
+menu.items.bg.color: #2B454F
 menu.items.text.color: #d3dae3
 menu.items.disabled.text.color: #575757
 
