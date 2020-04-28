@@ -1,91 +1,134 @@
-!! Menu settings
+# Arc Openbox theme
+# Copyright (C) 2015 Dino Duratović <dinomol at mail dot com>
+#
+# Inspired by and made for horst3180's Arc GTK theme
+# https://github.com/horst3180/Arc-theme
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-menu.title.bg: flat gradient vertical bevel1
-menu.title.bg.color: #22373f
-menu.title.bg.colorTo: #22373f
-menu.title.text.color: #d3dae3
-menu.title.text.justify: right
+### WINDOW
+border.width: 1
+
+window.client.padding.width: 0
+window.client.padding.height: 0
+window.handle.width: 0
+
+padding.width: 4
+padding.height: 4
+
+window.active.border.color: #c6d3d8
+window.inactive.border.color: #c6d3d8
+window.active.title.separator.color: #c6d3d8
+window.inactive.title.separator.color: #c6d3d8
+window.active.client.color: #c6d3d8
+window.inactive.client.color: #c6d3d8
+
+window.active.label.text.color: #121212
+window.inactive.label.text.color: #4d4d4d
+
+window.active.button.unpressed.image.color: #121212
+window.active.button.pressed.image.color: #cc666a
+window.active.button.disabled.image.color: #121212
+window.active.button.hover.image.color: #cc666a
+window.active.button.toggled.unpressed.image.color: #121212
+window.active.button.toggled.pressed.image.color: #cc666a
+window.active.button.toggled.hover.image.color: #cc666a
+window.inactive.button.unpressed.image.color: #1F2328
+window.inactive.button.pressed.image.color: #4d4d4d
+window.inactive.button.disabled.image.color: #121212
+window.inactive.button.hover.image.color: #cc666a
+window.inactive.button.toggled.unpressed.image.color: #1F2328
+window.inactive.button.toggled.pressed.image.color: #4d4d4d
+window.inactive.button.toggled.hover.image.color: #cc666a
+
+window.active.title.bg: flat solid
+window.active.title.bg.color: #c6d3d8
+window.active.label.bg: flat solid
+window.active.label.bg.color: #c6d3d8
+#window.active.handle.bg: texture
+#window.active.grip.bg: texture
+window.inactive.title.bg: flat solid
+window.inactive.title.bg.color: #c6d3d8
+window.inactive.label.bg: flat solid
+window.inactive.label.bg.color: #c6d3d8
+#window.inactive.handle.bg: texture
+#window.inactive.grip.bg: texture
+
+window.active.button.unpressed.bg: parentrelative
+window.active.button.pressed.bg: parentrelative
+window.active.button.hover.bg: parentrelative
+window.active.button.disabled.bg: parentrelative
+window.active.button.toggled.unpressed.bg: parentrelative
+window.active.button.toggled.pressed.bg: parentrelative
+window.active.button.toggled.hover.bg: parentrelative
+window.inactive.button.unpressed.bg: parentrelative
+window.inactive.button.pressed.bg: parentrelative
+window.inactive.button.hover.bg: parentrelative
+window.inactive.button.disabled.bg: parentrelative
+window.inactive.button.toggled.unpressed.bg: parentrelative
+window.inactive.button.toggled.pressed.bg: parentrelative
+window.inactive.button.toggled.hover.bg: parentrelative
+
+window.label.text.justify: center
+
+#window.active.label.text.font: text shadow
+#window.inactive.label.text.font: text shadow
+
+### MENU
+menu.border.width: 1
+menu.separator.width: 0
+menu.separator.padding.width: 10
+menu.separator.padding.height: 2
+
+menu.overlap.x: -3
+menu.overlap.y: 3
+
+menu.border.color: #333333
+menu.separator.color: #333333
+
+menu.title.text.color: #121212
+menu.items.text.color: #121212
+menu.items.disabled.text.color: #4d4d4d
+menu.items.active.text.color: #000000
+menu.items.active.disabled.text.color: #4d4d4d
 
 menu.items.bg: flat solid
-menu.items.bg.color: #22373f
-menu.items.text.color: #d3dae3
-menu.items.disabled.text.color: #575757
-
-menu.items.active.bg: flat gradient vertical bevel1
+menu.items.bg.color: #c6d3d8
+menu.items.active.bg: flat solid
 menu.items.active.bg.color: #cc666a
-menu.items.active.bg.colorTo:#cc666a
-menu.items.active.text.color: #ffffff
-menu.bullet.selected.image.color: #ffffff
+menu.title.bg: flat solid
+menu.title.bg.color: #a6a6a6
 
-menu.separator.color: #535353
+menu.title.text.justify: center
 
-!! focused window settings
+#menu.items.font: text shadow
+#menu.title.text.font: text shadow
 
-window.active.title.bg: flat gradient vertical bevel1
-window.active.title.bg.color: #22373f
-window.active.title.bg.colorTo: #22373f
-window.active.title.separator.color: #22373f
+### OSD
+osd.border.width: 1
 
-window.active.handle.bg: flat gradient vertical bevel1
-window.active.handle.bg.color: #22373f
-window.active.handle.bg.colorTo: #22373f
+osd.border.color: #333333
 
-window.active.grip.bg: parentrelative
+osd.label.text.color: #121212
 
-window.active.label.bg: parentrelative
-window.active.label.text.color: #d3dae3
-
-window.*.button.*.bg: parentrelative
-window.active.button.*.image.color: #d3dae3
-window.active.button.*.hover.image.color: #FFFFFF
-window.active.button.*.pressed.image.color: #000000
-window.active.button.disabled.image.color: #575757
-
-!! unfocused window settings
-
-window.inactive.title.bg: flat gradient vertical bevel1
-window.inactive.title.bg.color: #22373f
-window.inactive.title.bg.colorTo: #22373f
-window.inactive.title.separator.color: #22373f
-
-window.inactive.handle.bg: flat gradient vertical bevel1
-window.inactive.handle.bg.color: #22373f
-window.inactive.handle.bg.colorTo: #22373f
-
-window.inactive.grip.bg: parentrelative
-
-window.inactive.label.bg: parentrelative
-window.inactive.label.text.color: #999999
-
-window.inactive.button.*.image.color: #999999
-window.inactive.button.*.hover.image.color: #FFFFFF
-window.inactive.button.*.pressed.image.color: #ffffff
-window.inactive.button.disabled.image.color: #575757
-
-!! Global width settings
-border.Width: 4
-padding.width: 1
-window.handle.width: 0
-window.client.padding.width: 0
-menu.overlap.x: -6
-
-!! Miscellaneous settings
-border.color: #152126
-
-!! OSD
-osd.bg: flat gradient vertical bevel1
-osd.bg.color: #22373f
-osd.bg.colorTo: #22373f
-osd.label.bg: parentrelative
+osd.bg: flat solid
+osd.bg.color: #c6d3d8
+osd.label.bg: flat solid
+osd.label.bg.color: #a6a6a6
 osd.hilight.bg: flat solid
-osd.hilight.bg.color: #346077
+osd.hilight.bg.color: #cc666a
 osd.unhilight.bg: flat solid
-osd.unhilight.bg.color: #3D3C40
-osd.label.text.color: #d3dae3
+osd.unhilight.bg.color: #c6d3d8
 
-!! font me!
-window.label.text.justify: center
-window.active.label.text.font:shadow=n:shadowtint=-60:shadowoffset=1
-window.inactive.label.text.font:shadow=n:shadowtint=-60:shadowoffset=1
-menu.items.font:
-menu.title.text.font:shadow=n:shadowtint=70
+#osd.label.text.font: text shadow
