@@ -1,5 +1,9 @@
 !! Menu settings
 
+menu.border.color: #304D59
+menu.border.width: 0
+menu.title.bg.border.color: #304D59
+
 menu.title.bg: flat gradient vertical bevel1
 menu.title.bg.color: #2B454F
 menu.title.bg.colorTo: #2B454F
@@ -68,6 +72,7 @@ padding.width: 1
 window.handle.width: 0
 window.client.padding.width: 0
 menu.overlap.x: -6
+menu.overlap: -6
 
 !! Miscellaneous settings
 border.color: #152126
