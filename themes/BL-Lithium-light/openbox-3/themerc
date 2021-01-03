@@ -93,6 +93,7 @@ menu.separator.padding.height: 2
 
 menu.overlap.x: -3
 menu.overlap.y: 3
+menu.overlap: -3
 
 menu.border.color: #333333
 menu.separator.color: #333333

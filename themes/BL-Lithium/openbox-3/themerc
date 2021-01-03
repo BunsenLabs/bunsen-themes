@@ -1,8 +1,8 @@
+!! BL-Lithium
 !! Menu settings
 
-menu.border.color: #304D59
+#menu.border.color: #304D59
 menu.border.width: 0
-menu.title.bg.border.color: #304D59
 
 menu.title.bg: flat gradient vertical bevel1
 menu.title.bg.color: #2B454F

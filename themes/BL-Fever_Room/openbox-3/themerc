@@ -1,4 +1,7 @@
+!! BL-Fever_Room
 !! Menu settings
+
+menu.border.width: 0
 
 menu.title.bg: flat gradient vertical bevel1
 menu.title.bg.color: #1B1108
@@ -68,6 +71,7 @@ padding.width: 1
 window.handle.width: 0
 window.client.padding.width: 0
 menu.overlap.x: -6
+menu.overlap: -6
 
 !! Miscellaneous settings
 border.color: #1B1108

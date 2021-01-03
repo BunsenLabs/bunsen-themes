@@ -9,6 +9,8 @@
 
 !! Menu settings
 
+menu.border.width: 0
+
 menu.title.bg: flat solid
 menu.title.bg.color: #CECECE
 menu.title.text.color: #222222
@@ -71,6 +73,7 @@ padding.width: 3
 window.handle.width: 0
 window.client.padding.width: 0
 menu.overlap.x: -3
+menu.overlap: -3
 
 !! Miscellaneous settings
 border.color: #888888
