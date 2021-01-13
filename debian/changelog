@@ -1,3 +1,13 @@
+bunsen-themes (10.0.7-1) lithium; urgency=medium
+
+  * Openbox themes:
+    - ensure menu.border.width is set
+    - add menu.overlap as fallback for old parsers
+    - ensure theme name is recorded in file
+  * BL-Lithium openbox theme: small tweaks.
+
+ -- John Crawley <john@bunsenlabs.org>  Wed, 13 Jan 2021 18:43:59 +0900
+
 bunsen-themes (10.0.6-1) lithium; urgency=medium
 
   [ hhhorb ]
