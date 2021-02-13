@@ -1,3 +1,13 @@
+bunsen-themes (11.0-1) beryllium; urgency=medium
+
+  * Migrate for Debian Bullseye.
+    + debian/control: Bump Standards-Version to 4.5.1 - no changes required.
+    + debian/control: Declare debhelper compatibility 12.
+    + Remove debian/compat, now unnecessary.
+    + debian/copyright: update years and add some omitted contributors. 
+
+ -- John Crawley <john@bunsenlabs.org>  Sat, 13 Feb 2021 15:43:59 +0900
+
 bunsen-themes (10.0.7-1) lithium; urgency=medium
 
   * Openbox themes:
