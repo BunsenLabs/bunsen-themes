@@ -3,10 +3,12 @@ Upstream-Name: bunsen-themes
 Source: http://crunchbang.org/forums/viewtopic.php?id=39606
 
 Files: *
-Copyright: 2015-2019 hhh <hsumen@bunsenlabs.org>
-           2017-2018 Matthew T Hoare <matthew.t.hoare@gmail.com>
+Copyright: 2017-2018 Matthew T Hoare <matthew.t.hoare@gmail.com>
            2018 Vinzenz Vietzke
-           2019 Will Elliott <will@gill>
+           2019-2020 Will Elliott <will@gill>
+           2015-2020 damo <damo@bunsenlabs.org>
+           2015-2020 hhh <hsumen@bunsenlabs.org>
+           2018-2021 John Crawley <john@bunsenlabs.org>
 License: GPL-3+
  This package is free software; you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by
@@ -26,7 +28,7 @@ License: GPL-3+
 
 Files: debian/*
 Copyright: 2015-2016 Jens John <dev@2ion.de>
-           2017-2019 John Crawley <john@bunsenlabs.org>
+           2017-2021 John Crawley <john@bunsenlabs.org>
 License: GPL-3+
  This package is free software; you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by
