@@ -459,7 +459,7 @@ button {
     color: #D1E0DF;
     outline-color: rgba(60, 60, 60, 0.3);
     border-color: #525252;
-    background-image: linear-gradient(to bottom, shade(#403F3F, 1.00), shade(#474646, 1.00));
+    background-image: linear-gradient(to bottom, shade(#344162, 1.00), shade(#344162, 1.00));
     box-shadow: inset 0 1px rgba(255, 255, 255, 0.6);
     -gtk-icon-effect: highlight; }
   notebook > header > tabs > arrow:active, button.titlebutton:active, notebook > header > tabs > arrow:checked, button.titlebutton:checked,
