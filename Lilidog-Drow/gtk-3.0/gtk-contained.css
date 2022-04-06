@@ -2717,7 +2717,7 @@ switch {
   box-shadow: inset 0 1px rgba(0, 0, 0, 0.1), 0 1px transparent;
   border: 1px solid alpha(black,0.25);
   border-radius: 10px;
-  background-color: #2B2B2B;
+  background-color: #2F3031;
   text-shadow: 0 1px rgba(0, 0, 0, 0.1);
   min-height: 20px;
   min-width: 20px;
@@ -2725,7 +2725,7 @@ switch {
   switch:checked {
     box-shadow: inset 0 1px rgba(0, 0, 0, 0.1), 0 1px transparent;
     border-color: shade(#696969, 1.1);
-    background-image: linear-gradient(to bottom, shade(#384363, 1.1), #384363);
+    background-image: linear-gradient(to bottom, shade(#5D6B6B, 1.1), #5D6B6B);
     text-shadow: 0 1px rgba(15, 66, 120, 0.5), 0 0 2px rgba(255, 255, 255, 0.6); }
   switch:disabled {
     border-color: #525252;
@@ -2758,13 +2758,13 @@ switch {
     color: #C3D4D4;
     outline-color: rgba(60, 60, 60, 0.3);
     border-color: #525252;
-    background-image: linear-gradient(to bottom, #5D7F7E 20%, #282828 90%);
+    background-image: linear-gradient(to bottom, #37487A 20%, #37487A 90%);
     box-shadow: inset 0 1px rgba(255, 255, 255, 0.6), inset 0 -2px #2E2E2E, inset 0 -1px #2B2B2B, 0 1px rgba(0, 0, 0, 0.1); }
   switch:hover slider {
     color: #C3D4D4;
     outline-color: rgba(60, 60, 60, 0.3);
     border-color: #525252;
-    background-image: linear-gradient(to bottom, #282828 10%, #BCD5DE 90%);
+    background-image: linear-gradient(to bottom, #5F7BB8 10%, #5F7BB8 90%);
     box-shadow: inset 0 1px rgba(255, 255, 255, 0.6), inset 0 -2px #5D7F7E, inset 0 -1px#282828, 0 1px rgba(0, 0, 0, 0.1); }
   switch:checked slider {
     border: 1px solid alpha(#696969,0.8); }
