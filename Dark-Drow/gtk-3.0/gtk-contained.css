@@ -2563,22 +2563,22 @@ notebook > stack:not(:only-child) {
  * Scrollbars *
  **************/
 scrollbar {
-  background-image: linear-gradient(to right, #1C1C1C, #BDC9C7);
+  background-image: linear-gradient(to right, #1C1C1C, #252525);
   transition: 300ms cubic-bezier(0.25, 0.46, 0.45, 0.94); }
   * {
     -GtkScrollbar-has-backward-stepper: false;
     -GtkScrollbar-has-forward-stepper: false; }
   scrollbar.top {
-    border-bottom: 1px solid #5D7F7E; }
+    border-bottom: 1px solid #232323; }
   scrollbar.bottom {
-    border-top: 1px solid #5D7F7E; }
+    border-top: 1px solid #232323; }
   scrollbar.left {
-    border-right: 1px solid #5D7F7E; }
+    border-right: 1px solid #232323; }
   scrollbar.right {
-    border-left: 1px solid #5D7F7E; }
+    border-left: 1px solid #232323; }
   scrollbar:backdrop {
     background-color: #4D4D4D;
-    border-color: #5D7F7E;
+    border-color: #232323;
     transition: 200ms ease-out; }
   scrollbar slider {
     min-width: 9px;
@@ -2587,13 +2587,13 @@ scrollbar {
     border: 1px solid #2F3635;
     border-radius: 10px;
     background-clip: padding-box;
-    background-image: linear-gradient(to right, #232323, #39403F); }
+    background-image: linear-gradient(to right, #454545, #39403F); }
     scrollbar slider:hover {
-      background-image: linear-gradient(to right, #39403F, #1C1C1C); }
+      background-image: linear-gradient(to right, #596362, #707070); }
     scrollbar slider:hover:active {
       background-color: #2E2E2E; }
     scrollbar slider:backdrop {
-      background-color: #5D7F7E; }
+      background-color: #232323; }
     scrollbar slider:disabled {
       background-color: transparent; }
   scrollbar.fine-tune slider {
