@@ -175,7 +175,7 @@ entry {
   transition: all 200ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
   color: #DFDFDF;
   border-color: #626262;
-  background-color: #393939;
+  background-color: #303030;
   box-shadow: inset 0 0 0 1px rgba(57, 142, 231, 0); }
   spinbutton:not(.vertical) image.left,
   entry image.left {
@@ -2563,22 +2563,22 @@ notebook > stack:not(:only-child) {
  * Scrollbars *
  **************/
 scrollbar {
-  background-image: linear-gradient(to right, #292929, #B3B3B3);
+  background-image: linear-gradient(to right, #262626, #262626);
   transition: 300ms cubic-bezier(0.25, 0.46, 0.45, 0.94); }
   * {
     -GtkScrollbar-has-backward-stepper: false;
     -GtkScrollbar-has-forward-stepper: false; }
   scrollbar.top {
-    border-bottom: 1px solid #7F7F7F; }
+    border-bottom: 1px solid #4F4F4F; }
   scrollbar.bottom {
-    border-top: 1px solid #7F7F7F; }
+    border-top: 1px solid #4F4F4F; }
   scrollbar.left {
-    border-right: 1px solid #7F7F7F; }
+    border-right: 1px solid #4F4F4F; }
   scrollbar.right {
-    border-left: 1px solid #7F7F7F; }
+    border-left: 1px solid #4F4F4F; }
   scrollbar:backdrop {
     background-color: #4D4D4D;
-    border-color: #7F7F7F;
+    border-color: #4F4F4F;
     transition: 200ms ease-out; }
   scrollbar slider {
     min-width: 9px;
@@ -2587,9 +2587,9 @@ scrollbar {
     border: 1px solid #525252;
     border-radius: 10px;
     background-clip: padding-box;
-    background-image: linear-gradient(to right, #252525, #454545); }
+    background-image: linear-gradient(to right, #606060, #292929); }
     scrollbar slider:hover {
-      background-image: linear-gradient(to right, #606060, #292929); }
+      background-image: linear-gradient(to right, #888888, #484848); }
     scrollbar slider:hover:active {
       background-color: #353535; }
     scrollbar slider:backdrop {
@@ -4356,7 +4356,7 @@ entry selection:focus,
 entry selection, modelbutton.flat:selected, popover.background checkbutton:selected,
 popover.background radiobutton:selected,
 .menuitem.button.flat:selected, treeview.view:selected:focus, treeview.view:selected, row:selected, calendar:selected {
-  background-color: #4A4A4A; }
+  background-color: #585858; }
   row:selected label, label:selected, .selection-mode button.titlebutton, .view:selected:focus, .view:selected, iconview:selected, .view text:selected, iconview text:selected,
   textview text:selected, .view text selection:focus, iconview text selection:focus, .view text selection, iconview text selection,
   textview text selection:focus,
