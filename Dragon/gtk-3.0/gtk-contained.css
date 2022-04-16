@@ -2587,9 +2587,9 @@ scrollbar {
     border: 1px solid #2F3233;
     border-radius: 10px;
     background-clip: padding-box;
-    background-image: linear-gradient(to right, #383E40, #34393B); }
+    background-image: linear-gradient(to right, #596366, #596366); }
     scrollbar slider:hover {
-      background-image: linear-gradient(to right, #555E61, #555E61); }
+      background-image: linear-gradient(to right, #768185, #768185); }
     scrollbar slider:hover:active {
       background-color: #2C2F30; }
     scrollbar slider:backdrop {
