@@ -2563,7 +2563,7 @@ notebook > stack:not(:only-child) {
  * Scrollbars *
  **************/
 scrollbar {
-  background-image: linear-gradient(to right, #161717, #161717);
+  background-image: linear-gradient(to right, #141414, #141414);
   transition: 300ms cubic-bezier(0.25, 0.46, 0.45, 0.94); }
   * {
     -GtkScrollbar-has-backward-stepper: false;
@@ -2587,9 +2587,9 @@ scrollbar {
     border: 1px solid #2F3233;
     border-radius: 10px;
     background-clip: padding-box;
-    background-image: linear-gradient(to right, #34393B, #34393B); }
+    background-image: linear-gradient(to right, #383E40, #34393B); }
     scrollbar slider:hover {
-      background-image: linear-gradient(to right, #51595C, #51595C); }
+      background-image: linear-gradient(to right, #555E61, #555E61); }
     scrollbar slider:hover:active {
       background-color: #2C2F30; }
     scrollbar slider:backdrop {
@@ -2868,7 +2868,7 @@ radio {
   color: #C3D4D4;
   outline-color: rgba(60, 60, 60, 0.3);
   border-color: #9b9b9b;
-  background-image: linear-gradient(to bottom, #18191A 20%, #424F4F 90%);
+  background-image: linear-gradient(to bottom, #1A1F1F 20%, #1A1F1F 90%);
   box-shadow: inset 0 1px rgba(255, 255, 255, 0.8), inset 0 -2px #2C2F30, inset 0 -1px #151617, 0 1px rgba(0, 0, 0, 0.1); }
   check:only-child,
   radio:only-child {
@@ -2878,7 +2878,7 @@ radio {
     color: #C3D4D4;
     outline-color: rgba(60, 60, 60, 0.3);
     border-color: #2F3233;
-    background-image: linear-gradient(to bottom, #151617 10%, #BCD5DE 90%);
+    background-image: linear-gradient(to bottom, #252829 10%, #252829 90%);
     box-shadow: inset 0 1px rgba(255, 255, 255, 0.6), inset 0 -2px #424F4F, inset 0 -1px#151617, 0 1px rgba(0, 0, 0, 0.1); }
   check:active,
   radio:active {
