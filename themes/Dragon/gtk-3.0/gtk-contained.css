@@ -2466,7 +2466,7 @@ notebook > header {
     padding: 3px 12px;
     outline-offset: -5px;
     color: #A6B3B2;
-    background-color: #2C2F30;
+    background-color: #151617;
     border-width: 1px;
     border-radius: 3px;
     border-color: shade(#2C2F30, 0.9);
@@ -2483,7 +2483,7 @@ notebook > header {
         background-color: transparent; }
     notebook > header tab:checked {
       color: #C3D4D4;
-      background-color: shade(#151617, 1.05);
+      background-color: shade(#3B4143, 1.05);
       border-width: 1px 1px 0 1px; }
       notebook > header tab:checked:backdrop {
         background-color: #151617; }
@@ -2491,7 +2491,7 @@ notebook > header {
         border-color: #263436;
         background-color: shade(#383E40, 1.05); }
     notebook > header tab:backdrop:checked {
-      color: #A6B3B2; }
+      color: #A8B5B4; }
       notebook > header tab:backdrop:checked.reorderable-page {
         border-color: #545252;
         background-color: #151617; }
