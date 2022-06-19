@@ -1,3 +1,10 @@
+bunsen-themes (11.1.1-1) beryllium; urgency=low
+
+  * [sleekmason]
+     Dragon theme: adjust transition time.
+
+ -- John Crawley <john@bunsenlabs.org>  Sun, 19 Jun 2022 16:02:52 +0900
+
 bunsen-themes (11.1-1) beryllium; urgency=medium
 
   * Add Dragon theme by Sleekmason for BunsenLabs Beryllium.
