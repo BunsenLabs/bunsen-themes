@@ -1,7 +1,7 @@
 Source: bunsen-themes
 Section: x11
 Priority: optional
-Maintainer: Jens John <dev@2ion.de>
+Maintainer: John Crawley <john@bunsenlabs.org>
 Build-Depends: debhelper-compat (= 12)
 Standards-Version: 4.5.1
 Homepage: https://github.com/bunsenlabs/bunsen-themes
@@ -13,5 +13,5 @@ Architecture: all
 Depends: gtk2-engines-murrine, gtk2-engines-pixbuf, libgtk-3-0 (>= 3.22.11), ${misc:Depends}
 Suggests: openbox, lightdm-gtk-greeter, bunsen-images
 Description: GTK, Openbox, and other themes for BunsenLabs on Debian
- Made by hhh from the BunsenLabs forums
+ Made by hhh and others from the BunsenLabs forums
 
