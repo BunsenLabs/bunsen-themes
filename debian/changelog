@@ -1,3 +1,9 @@
+bunsen-themes (11.1.1-2) beryllium; urgency=medium
+
+  * Small packaging tweaks.
+
+ -- John Crawley <john@bunsenlabs.org>  Tue, 13 Dec 2022 13:43:31 +0900
+
 bunsen-themes (11.1.1-1) beryllium; urgency=low
 
   * [sleekmason]
