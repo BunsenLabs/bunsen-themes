@@ -2,8 +2,9 @@ Source: bunsen-themes
 Section: x11
 Priority: optional
 Maintainer: John Crawley <john@bunsenlabs.org>
-Build-Depends: debhelper-compat (= 12)
-Standards-Version: 4.5.1
+Build-Depends: debhelper-compat (= 13)
+Rules-Requires-Root: no
+Standards-Version: 4.6.1.0
 Homepage: https://github.com/bunsenlabs/bunsen-themes
 Vcs-Browser: https://github.com/bunsenlabs/bunsen-themes
 Vcs-Git: https://github.com/BunsenLabs/bunsen-themes.git
@@ -11,7 +12,6 @@ Vcs-Git: https://github.com/BunsenLabs/bunsen-themes.git
 Package: bunsen-themes
 Architecture: all
 Depends: gtk2-engines-murrine, gtk2-engines-pixbuf, libgtk-3-0 (>= 3.22.11), ${misc:Depends}
-Suggests: openbox, lightdm-gtk-greeter, bunsen-images
+Suggests: openbox, lightdm-gtk-greeter, bunsen-images, bunsen-papirus-icon-theme
 Description: GTK, Openbox, and other themes for BunsenLabs on Debian
- Made by hhh and others from the BunsenLabs forums
-
+ Made by hhh and others from the BunsenLabs forums.

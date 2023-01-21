@@ -1,4 +1,4 @@
-Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: bunsen-themes
 Source: http://crunchbang.org/forums/viewtopic.php?id=39606
 
@@ -29,7 +29,7 @@ License: GPL-3+
 
 Files: debian/*
 Copyright: 2015-2016 Jens John <dev@2ion.de>
-           2017-2022 John Crawley <john@bunsenlabs.org>
+           2017-2023 John Crawley <john@bunsenlabs.org>
 License: GPL-3+
  This package is free software; you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by
