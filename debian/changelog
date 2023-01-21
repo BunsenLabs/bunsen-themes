@@ -1,3 +1,12 @@
+bunsen-themes (12.0-1) boron; urgency=medium
+
+  * Migrate for Debian Bookworm
+    - debian/control: Bump Standards-Version to 4.6.1.0 - no changes required.
+    - debian/control: Declare debhelper compatibility 13.
+    - debian/copyright: update year.
+
+ -- John Crawley <john@bunsenlabs.org>  Sat, 21 Jan 2023 14:53:53 +0900
+
 bunsen-themes (11.1.1-2) beryllium; urgency=medium
 
   * Small packaging tweaks.
@@ -23,7 +32,7 @@ bunsen-themes (11.0-1) beryllium; urgency=medium
     + debian/control: Bump Standards-Version to 4.5.1 - no changes required.
     + debian/control: Declare debhelper compatibility 12.
     + Remove debian/compat, now unnecessary.
-    + debian/copyright: update years and add some omitted contributors. 
+    + debian/copyright: update years and add some omitted contributors.
 
  -- John Crawley <john@bunsenlabs.org>  Sat, 13 Feb 2021 15:43:59 +0900
 
@@ -72,7 +81,7 @@ bunsen-themes (10.0.3-1) lithium; urgency=medium
 bunsen-themes (10.0.2-1) lithium; urgency=medium
 
   [ hhh ]
-  * Add new BL-Lithium theme. 
+  * Add new BL-Lithium theme.
 
  -- John Crawley <john@bunsenlabs.org>  Tue, 13 Aug 2019 17:18:52 +0900
 
