@@ -6,8 +6,8 @@
 
 
 # Menu
-menu.border.color: #222222
-menu.border.width: 0
+menu.border.color: #FFF0ED
+menu.border.width: 3
 
 menu.title.bg: Solid Flat
 menu.title.bg.color: #e5d8d4
@@ -16,13 +16,13 @@ menu.title.text.color: #222222
 menu.title.text.justify: Center
 
 menu.items.bg: Solid Flat
-menu.items.bg.color: #e5d8d4
+menu.items.bg.color: #FFF0ED
 menu.items.text.color: #222222
 menu.items.disabled.text.color: #8d8683
 
 menu.items.active.bg: Solid Flat
 menu.items.active.bg.color: #53a0b3
-menu.items.active.text.color: #222222
+menu.items.active.text.color: #ffffff
 
 menu.separator.color: #8d8683
 menu.separator.width: 1
@@ -120,15 +120,15 @@ osd.unhilight.bg: flat solid
 osd.unhilight.bg.color: #fff0ed
 
 osd.button.unpressed.bg: flat border
-osd.button.unpressed.bg.color: #000000
+osd.button.unpressed.bg.color: #EADCD9
 #osd.button.unpressed.*.border.color: #f7f7f7
 
 osd.button.pressed.bg: flat border
-osd.button.pressed.bg.color: #53a0b3
+osd.button.pressed.bg.color: #B3A8A5
 #osd.button.pressed.*.border.color: #ffffff
 
 osd.button.focused.bg: flat solid border
-osd.button.focused.bg.color: #222222
+osd.button.focused.bg.color: #93B7BF
 #osd.button.focused.*.border.color: #fff0ed
 
 osd.button.focused.box.color: #53a0b3

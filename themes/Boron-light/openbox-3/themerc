@@ -1,4 +1,3 @@
-# Boron-light
 # Name: Oomox (Numix fork) Openbox theme
 # Author: Satyajit Sahoo <satyajit.happy@gmail.com>
 # License: GPL-3.0+
@@ -7,8 +6,8 @@
 
 
 # Menu
-menu.border.color: #f7f7f7
-menu.border.width: 0
+menu.border.color: #FFF0ED
+menu.border.width: 3
 
 menu.title.bg: Solid Flat
 menu.title.bg.color: #e5d8d4
@@ -17,7 +16,7 @@ menu.title.text.color: #222222
 menu.title.text.justify: Center
 
 menu.items.bg: Solid Flat
-menu.items.bg.color: #e5d8d4
+menu.items.bg.color: #FFF0ED
 menu.items.text.color: #222222
 menu.items.disabled.text.color: #8d8683
 
@@ -106,33 +105,33 @@ window.inactive.button.hover.image.color: #575757
 
 # OSD
 osd.border.width: 2
-osd.border.color: #575757
+osd.border.color: #e5d8d4
 
 osd.bg: flat solid
 osd.bg.color: #e5d8d4
 osd.label.bg: flat solid
-osd.label.bg.color: #B3B3B3
+osd.label.bg.color: #BABABA
 osd.label.text.color: #222222
 osd.bg.shadow: 0
 
 osd.hilight.bg: Solid Flat
-osd.hilight.bg.color: #575757
+osd.hilight.bg.color: #BABABA
 osd.unhilight.bg: flat solid
 osd.unhilight.bg.color: #fff0ed
 
 osd.button.unpressed.bg: flat border
-osd.button.unpressed.bg.color: #000000
+osd.button.unpressed.bg.color: #EADCD9
 #osd.button.unpressed.*.border.color: #f7f7f7
 
 osd.button.pressed.bg: flat border
-osd.button.pressed.bg.color: #575757
+osd.button.pressed.bg.color: #B3A8A5
 #osd.button.pressed.*.border.color: #ffffff
 
 osd.button.focused.bg: flat solid border
-osd.button.focused.bg.color: #f7f7f7
-#osd.button.focused.*.border.color: #2c2c2c
+osd.button.focused.bg.color: #cccccc
+#osd.button.focused.*.border.color: #fff0ed
 
-osd.button.focused.box.color: #575757
+osd.button.focused.box.color: #cccccc
 
 
 # Fonts

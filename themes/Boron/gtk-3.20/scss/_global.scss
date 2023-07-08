@@ -142,9 +142,9 @@ $backdrop_menu_color: if($variant == 'light', $backdrop_base_color, mix($backdro
 $drop_target_color: #4e9a06;
 
 // widget styles
-$_roundness: 0;
+$_roundness: 5;
 $_spacing: 3;
-$roundness: 0px;
+$roundness: 5px;
 $spacing: 3px;
 $gradient: 0.0;
 $contrast: .8;

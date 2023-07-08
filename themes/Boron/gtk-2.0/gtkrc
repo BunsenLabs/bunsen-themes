@@ -143,7 +143,7 @@ style "murrine-default" {
 		menustyle = 0 # 0 = none, 1 = vertical striped
 		progressbarstyle = 0 # 0 = none, 1 = diagonal striped, 2 = vertical striped
 		reliefstyle = 0 # 0 = flat, 1 = inset, 2 = shadow, 3 = shadow with gradient, 4 = stronger shadow with gradient
-		roundness = 0# roundness of widgets
+		roundness = 10# roundness of widgets
 		scrollbarstyle = 0 # 0 = none, 1 = circles, 2 = handles, 3 = diagonal stripes, 4 = diagonal stripes and handles, 5 = horizontal stripes, 6 = horizontal stripes and handles
 		sliderstyle = 0 # 0 = none, 1 = handles
 		stepperstyle = 1 # 0 = standard, 1 = integrated stepper handles
@@ -193,7 +193,7 @@ style "murrine-button"  = "murrine-wider" {
 
 	engine "murrine" {
 		border_colors = { mix(0.4, @btn_fg_color, @btn_bg_color), mix(0.4, @btn_fg_color, @btn_bg_color) }
-		roundness = 0
+		roundness = 10
 	}
 }
 
@@ -214,7 +214,7 @@ style "murrine-scrollbar" {
 	bg[ACTIVE] = @selected_bg_color
 
 	engine "murrine" {
-		roundness = 0
+		roundness = 10
 		contrast = 0.0
 		border_shades = { 0.9, 0.9 }
 		trough_shades = { 0.97, 0.97 }
@@ -252,7 +252,7 @@ style "murrine-progressbar" = "murrine-thin" {
 	fg[PRELIGHT] = @selected_fg_color
 
 	engine "murrine" {
-		roundness = 0
+		roundness = 10
 		border_shades = { 1.2, 1.2 }
 		trough_border_shades = { 0.8, 0.8 }
 	}
@@ -300,7 +300,7 @@ style "murrine-tooltips" {
 
 	engine "murrine" {
 		textstyle = 0
-		roundness = 0
+		roundness = 10
 		rgba = FALSE
 	}
 }
@@ -318,7 +318,7 @@ style "clearlooks-radiocheck" = "murrine-default" {
 	text[PRELIGHT] = @selected_bg_color
 
 	engine "clearlooks" {
-		radius = 0.0
+		radius = 10.0
 	}
 }
 
@@ -330,7 +330,7 @@ style "murrine-entry" = "murrine-wider" {
 	engine "murrine" {
 		#border_shades = { 1.15, 1.15 }
 		border_colors = { mix(0.4, @text_color, @base_color), mix(0.4, @text_color, @base_color) }
-		roundness = 0
+		roundness = 10
 	}
 }
 
@@ -673,7 +673,7 @@ widget_class "*GtkFileChooserWidget.GtkFileChooserDefault.GtkVBox.GtkHPaned.GtkV
 
 style "chromium-toolbar-button" {
 	engine "murrine" {
-		roundness = 0
+		roundness = 10
 		textstyle = 0
 	}
 }
