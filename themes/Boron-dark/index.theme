@@ -1,9 +1,9 @@
 [Desktop Entry]
 Type=X-GNOME-Metatheme
-Name=Boron
+Name=Boron-dark
 Encoding=UTF-8
 
 [X-GNOME-Metatheme]
-Name=Boron
-GtkTheme=Boron
+Name=Boron-dark
+GtkTheme=Boron-dark
 
