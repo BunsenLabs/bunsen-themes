@@ -6,17 +6,17 @@
 
 
 # Menu
-menu.border.color: #FFF0ED
-menu.border.width: 3
+menu.border.color: #e5d8d4
+menu.border.width: 0
 
 menu.title.bg: Solid Flat
-menu.title.bg.color: #e5d8d4
+menu.title.bg.color: #c8cfcb
 menu.title.bg.shadow: 0
 menu.title.text.color: #222222
-menu.title.text.justify: Center
+menu.title.text.justify: Right
 
 menu.items.bg: Solid Flat
-menu.items.bg.color: #FFF0ED
+menu.items.bg.color: #e5d8d4
 menu.items.text.color: #222222
 menu.items.disabled.text.color: #8d8683
 
