@@ -20,8 +20,8 @@
 @define-color theme_text_color #222222;
 @define-color theme_selected_bg_color #53a0b3;
 @define-color theme_selected_fg_color #ffffff;
-@define-color theme_tooltip_bg_color #292D31;
-@define-color theme_tooltip_fg_color #d3dae3;
+@define-color theme_tooltip_bg_color #fff0ed;
+@define-color theme_tooltip_fg_color #222222;
 /* shadow effects */
 @define-color light_shadow #fff2ef;
 @define-color dark_shadow #070707;
@@ -3543,11 +3543,11 @@ menuitem.button.flat {
 .tooltip.background, .tooltip.background.csd,
 tooltip.background,
 tooltip.background.csd {
-  background-color: #292D31;
+  background-color: #fff0ed;
   background-clip: padding-box;
-  border: 0px solid #d3dae3;
+  border: 0px solid #ff9e8b;
   border-radius: 0;
-  color: #d3dae3; }
+  color: #222222; }
 .tooltip *,
 tooltip * {
   background-color: transparent;
