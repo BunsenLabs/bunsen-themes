@@ -1,3 +1,9 @@
+bunsen-themes (12.2-1) boron; urgency=medium
+
+  * Split off some themes into bunsen-themes-extra.
+
+ -- John Crawley <john@bunsenlabs.org>  Sun, 01 Oct 2023 13:38:52 +0900
+
 bunsen-themes (12.1~dev4-1) boron; urgency=medium
 
   * Boron-darkred, Boron-light-aqua:
