@@ -12,6 +12,18 @@ Vcs-Git: https://github.com/BunsenLabs/bunsen-themes.git
 Package: bunsen-themes
 Architecture: all
 Depends: gtk2-engines-murrine, gtk2-engines-pixbuf, libgtk-3-0 (>= 3.22.11), ${misc:Depends}
-Suggests: openbox, lightdm-gtk-greeter, bunsen-images, bunsen-papirus-icon-theme
+Suggests: openbox, lightdm-gtk-greeter, bunsen-images, bunsen-numix-icon-theme
 Description: GTK, Openbox, and other themes for BunsenLabs on Debian
+ This package provides themes used in the default desktop and in the
+ preset theme sets that come with BLOB (package bunsen-blob).
+ Made by hhh and others from the BunsenLabs forums.
+
+Package: bunsen-themes-extra
+Architecture: all
+Depends: gtk2-engines-murrine, gtk2-engines-pixbuf, libgtk-3-0 (>= 3.22.11), ${misc:Depends}
+Suggests: openbox, lightdm-gtk-greeter, bunsen-images, bunsen-images-extra, bunsen-blob
+Breaks: bunsen-themes (<<12.2)
+Replaces: bunsen-themes (<<12.2)
+Description: GTK, Openbox, and other themes for BunsenLabs on Debian
+ This package provides a variety of alternative themes.
  Made by hhh and others from the BunsenLabs forums.
