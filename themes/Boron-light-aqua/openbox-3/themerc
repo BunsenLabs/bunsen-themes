@@ -6,7 +6,7 @@
 
 
 # Menu
-menu.border.color: #e5d8d4
+menu.border.color: #c8cfcb
 menu.border.width: 0
 
 menu.title.bg: Solid Flat
