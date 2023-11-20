@@ -6,11 +6,11 @@
 
 
 # Menu
-menu.border.color: #222222
-menu.border.width: 3
+menu.border.color: #3a3a3a
+menu.border.width: 0
 
 menu.title.bg: Solid Flat
-menu.title.bg.color: #2C2C2C
+menu.title.bg.color: #3a3a3a
 menu.title.bg.shadow: 0
 menu.title.text.color: #f7f7f7
 menu.title.text.justify: Center
@@ -22,9 +22,9 @@ menu.items.disabled.text.color: #818181
 
 menu.items.active.bg: Solid Flat
 menu.items.active.bg.color: #9C3F3D
-menu.items.active.text.color: #f7f7f7
+menu.items.active.text.color: #ffffff
 
-menu.separator.color: #818181
+menu.separator.color: #8d8683
 menu.separator.width: 1
 menu.separator.padding.width: 2
 menu.separator.padding.height: 4
