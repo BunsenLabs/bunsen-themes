@@ -6,7 +6,7 @@
 
 
 # Menu
-menu.border.color: #3a3a3a
+menu.border.color: #5c2524
 menu.border.width: 0
 
 menu.title.bg: Solid Flat
@@ -21,7 +21,7 @@ menu.items.text.color: #f7f7f7
 menu.items.disabled.text.color: #818181
 
 menu.items.active.bg: Solid Flat
-menu.items.active.bg.color: #9C3F3D
+menu.items.active.bg.color: #9c3f3d
 menu.items.active.text.color: #ffffff
 
 menu.separator.color: #8d8683
