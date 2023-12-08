@@ -1,3 +1,9 @@
+bunsen-themes (12.4-1) boron; urgency=medium
+
+  * Improve HiDPI support of Boron themes, and reduce disk space.
+
+ -- John Crawley <john@bunsenlabs.org>  Fri, 08 Dec 2023 17:14:53 +0900
+
 bunsen-themes (12.3-1) boron; urgency=medium
 
   * Move Boron-aqua from bunsen-themes-extra back to bunsen-themes.
