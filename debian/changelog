@@ -1,3 +1,9 @@
+bunsen-themes (12.5-1) boron; urgency=medium
+
+  * Split off new package bunsen-themes-base with only Boron themes.
+
+ -- John Crawley <john@bunsenlabs.org>  Sat, 27 Apr 2024 16:40:56 +0900
+
 bunsen-themes (12.4-1) boron; urgency=medium
 
   * Improve HiDPI support of Boron themes, and reduce disk space.
