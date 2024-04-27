@@ -35,8 +35,8 @@ Architecture: all
 Depends: ${misc:Depends}, gtk2-engines-murrine, gtk2-engines-pixbuf, libgtk-3-0 (>= 3.22.11)
 Recommends: bunsen-images-base
 Suggests: openbox, lightdm-gtk-greeter, bunsen-themes
-Breaks: bunsen-themes (<<12.4)
-Replaces: bunsen-themes (<<12.4)
+Breaks: bunsen-themes (<<12.5)
+Replaces: bunsen-themes (<<12.5)
 Description: GTK, Openbox, and other themes for BunsenLabs on Debian
  This package provides only the themes used in the default desktop.
  The package bunsen-themes provides some alternative themes.
