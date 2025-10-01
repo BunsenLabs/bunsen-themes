@@ -1,0 +1,16 @@
+# bunsen-themes #
+
+GTK, Openbox, and other themes for BunsenLabs on Debian 
+
+bunsen-themes-base
+------------------
+This package provides only the themes used in the default desktop.
+
+bunsen-themes
+-------------
+This package provides themes used in the default desktop and in the
+preset theme sets that come with BLOB (package bunsen-blob).
+
+bunsen-themes-extra
+-------------------
+This package provides a variety of alternative themes.
