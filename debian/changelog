@@ -1,7 +1,7 @@
 bunsen-themes (13.1-1) carbon; urgency=medium
 
   * bunsen-themes-base is now an empty package which depends on the default
-     BunsenLabs theme package (currently bunsen-yaru-gtk),
+     BunsenLabs theme package (currently bunsen-yaru-gtk)
   * Move Boron themes from bunsen-themes-base to bunsen-themes.
 
  -- John Crawley <john@bunsenlabs.org>  Wed, 01 Oct 2025 14:35:44 +0900
